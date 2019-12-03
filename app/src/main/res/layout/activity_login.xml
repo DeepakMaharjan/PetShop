@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#F58A6852"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:src="@drawable/login"
+
+        />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:hint="Enter username"
+        style="@style/loginEditText"
+        />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:hint="Enter password"
+        style="@style/loginEditText"
+
+        />
+    <Button
+        android:id="@+id/btnLogin"
+        android:text="Login"
+        style="@style/loginButtom"
+        />
+    />
+    <Button
+        android:text="Sign Up"
+        style="@style/loginButtom"
+        />
+
+    <TextView
+        android:text="Forget Password?"
+        style="@style/loginEditText"
+        />
+
+</LinearLayout>

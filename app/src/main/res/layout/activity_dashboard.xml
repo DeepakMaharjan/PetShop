@@ -5,10 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="20dp"
-    android:background="#F58A6852"
-    tools:context=".MainActivity">
+    android:gravity="center"
+    tools:context=".Dashboard">
 
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:text="Welcome to the dashboard!!! "
+        />
 
 </LinearLayout>

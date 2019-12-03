@@ -8,6 +8,21 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-<!--    <style name=""-->
+    <style name="loginEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textColorHint">#A39494</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:layout_marginBottom">20dp</item>
+    </style>
+
+    <style name="loginButtom">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
 
 </resources>
